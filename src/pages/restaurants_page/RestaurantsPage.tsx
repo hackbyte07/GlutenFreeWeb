@@ -68,7 +68,7 @@ const RestaurantsPage = () => {
   const [restaurantFilterData, setRestaurantFilterData] =
     useState<RestaurantFilterData>();
   const [showModal, setShowModal] = useState(false);
-  const [showRestaurantDetail, setShowRestaurantDetail] = useState(false);
+  // const [showRestaurantDetail, setShowRestaurantDetail] = useState(false);
   const [restaurantFilterCheckedState, setRestauarantFilterCheckedState] =
     useState<Array<boolean>>([]);
 
